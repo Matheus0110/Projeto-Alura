@@ -13,24 +13,33 @@ header {
     color: rgb(42, 122, 228);
 }
 
+.background{
+    background: url(./cc2d63ce0d75373b6dffe2974770a356.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 .chamada {
-    background: rgb(0, 0, 0);
-    padding-bottom: 80px;
+    padding-bottom: 900px;
     padding-top: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .chamada-texto {
-    margin-right: 5%;
+    margin-right: 8%;
+    padding-right: 30px;
 }
 
 h1 {
     font-size: 40px;
+    margin: 0px 0px 0px 110px;
 }
 
 p {
     font-size: 20px;
+
+    margin: 0px 0px 0px 110px;
 }
 
 .categoria-videos {
@@ -42,7 +51,8 @@ p {
 .categoria {
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 50px;
+    padding-bottom: 200px;
+   
 }
 
 .categoria-videos img {
